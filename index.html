@@ -1,690 +1,993 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Simple website</title>
-	<style type="text/css">
-		body{
-			margin: 0;
-			padding: 0;
-		}
-		select{
-			border: none;
-			display: flex;
-			width: ;
-		}
-		.navbar{
-			position: absolute;
-			left: 38%;
-			top: 4%;
-			display: flex;
-			width: 30%;
-
-
-			font-size: 18pt;
-			cursor: pointer;
-		}
-
-
-		.navbar2{
-			position: absolute;
-			left: 23%;
-			top: 4%;
-			display: flex;
-			
-		}
-		
-
-
-			.navbar3{
-			position: absolute;
-			left: 120%;
-			top: 0%;
-			display: flex;
-			width: 30%;
-			color: black;
-			font-size: 14pt;
-			cursor: pointer;
-		}
-		header{
-		background: white	;
-		border: 2px solid floralwhite;
-
-		width: 100%;
-		height: 80px;
-
-		}
-		.p2{
-			position: absolute;
-			left: 500%;
-			color: black;
-			font-size: 13pt;
-			cursor: pointer;
-		}
-
-		.p3{
-			position: absolute;
-			left: 1470%;
-			color: black;
-			font-size: 13pt;
-			cursor: pointer;
-		}
-
-			.navbar4{
-			position: absolute;
-			left:900%;
-			top: 4%;
-			display: flex;
-			width: 30%;
-			color: black;
-			font-size: 14pt;
-			cursor: pointer;
-		}
-
-		.log img{
-			position: absolute;
-		float: right;
-		top: 4%;
-		left: 1694%;
-		}
-
-		.lo{
-			position: absolute;
-			left: 1870%;
-			top: 1%;
-		}
-
-
-			.log2 img{
-			position: absolute;
-		float: right;
-		top: 4%;
-		left: 2300%;
-		}
-
-		.lo2{
-			position: absolute;
-			left: 2300%;
-			top: 1%;
-			
-		}
-		.lo2 img{
-			position: absolute;
-			left: 0%;
-		}
-		.all ,.lo2{
-			background-color: #02a69c;
-			width: 600%;
-			height: 30px;
-			border-radius: 10px;
-			text-align: center;
-		}
-
-		.sawir{
-			position:absolute ;
-			left: 0%;
-			top: 20%;
-
-		}
-		span{
-			position: absolute;
-			top: 4%;
-			left: 10%;
-		}
-		.navbar5{
-			position: absolute;
-			left:3000%;
-			top: 4%;
-			display: flex;
-			width: 30%;
-			color: black;
-			font-size: 14pt;
-			}
-
-			.background img{
-				
-								
-				
-				width: 40%;
-				margin-top: 4%;
-				margin-left: 57%;
-				height: 500px;
-
-				
-			}
-			.whole{
-				width: 100%;
-				height: 600px;
-				background: navajowhite;
-			}
-			.qoral{
-				position: absolute;
-				top: 30%;
-				left: 10%;
-			}
-			.order{
-				position: absolute;
-				background: #02a69c;
-				width: 76%;
-				height: 40px;
-				text-align: center;
-				border-radius: 20px;
-				color: white;
-
-			}
-			.qo2{
-				margin-top: 10px;
-			}
-
-			.start{
-				margin-top: 16px;
-				color: white;
-				cursor: pointer;
-
-			}
-			.trust{
-			margin-top: 3%;
-			font-family:initial;
-			font-size: 34pt;
-				
-			}
-			.crypro{
-
-			margin-top: 0%;
-			font-family:initial;
-			font-size: 34pt;
-	
-			}
-			.para,.para2{
-				font-size: 16pt;
-			}
-			.input [type=text]{
-				width: 85%;
-				height: 50px;
-				margin-top: 10%;
-				text-align: center;
-
-			}
-	
-        .get{
-        	width: 20%;
-				height: 58px;
-;
-				position: absolute;
-				top: 87%;
-				left: 67%;
-
-				text-align: center;
-				background: #5565f8;
-        }
-        .Start{
-        	margin-top: 120px;
-
-        }
-        .middlesection{
-        	position: absolute;
-        	top: 105%;
-        	left: 30%;
-        	
-        }
-        .how{
-        	margin-top: 5%;
-        	font-size: 35pt;
-        }
-        .lorem{
-        	font-size: 16pt;
-        	position: absolute;
-        	left: 3%;
-        	text-align: center;
-        }
-        .third{
-        	position: absolute;
-        	top: 139%;
-        	left: 6%;
-        	background: whitesmoke;
-        	width: 29%;
-        	height:200px;
-        	border: 0px solid grey;
-        }
-        .title{
-        	margin-left: 10%;
-        	font-size: 17pt;
-        font-weight: bold;
-        }
-        .lor{
-        	margin-left: 12%;
-        	font-family: serif;
-        }
-
-        .third2{
-        	position: absolute;
-        	top: 139%;
-        	left: 38%;
-        	background: whitesmoke;
-        	width: 29%;
-        	height:200px;
-        	border: 0px solid grey;
-      
-
-        }
-
-
-          .third3{
-        	position: absolute;
-        	top: 139%;
-        	left: 69%;
-        	background: whitesmoke;
-        	width: 29%;
-        	height:200px;
-        	border: 0px solid grey;
-
-      transition: 1.6s ease-in;
-
-        }
-        .third3:hover{
-        	transform: scale(1.2);
-        	opacity: 1.9s;
-        	
-        	
-        }
-
-        .middlesection2{
-        	position: absolute;
-        	top:176%;
-        	left: 38%;
-        	
-        }
-
-        .lorem2{
-
-        	position: absolute;
-        	left: 10%;
-        	text-align: center;
-        }
-        .fifth{
-        	position: absolute;
-        	top: 210%;
-        	left: 6%;
-        	background: whitesmoke;
-        	width: 29%;
-        	height:400px;
-        	border: 2px solid whitesmoke;
-        }
-       .im{
-       	margin-left: 27%;
-       }
-      .title2{
-      	margin-top: 20%;
-      		font-size: 17pt;
-        font-weight: bold;
-        margin-left: 7%;
-      }
-       .lor2{
-        	margin-left: 7%;
-        	font-family: serif;
-        }
-
-          .six{
-        	position: absolute;
-        	top: 210%;
-        	left: 38%;
-        	background: whitesmoke;
-        	width: 29%;
-        	height:400px;
-        	border: 2px solid whitesmoke;
-        }
-
-            .seven{
-        	position: absolute;
-        	top: 210%;
-        	left: 70%;
-        	background: whitesmoke;
-        	width: 29%;
-        	height:400px;
-        	border: 2px solid whitesmoke;
-        }
-
-  footer{
-  	position: absolute;
-  	top:280%;
-  	left: 0%;
-  	background-image: linear-gradient(to right, #2874A6,#4d3145);
-  	width: 100%;
-  	height: 400px;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Admin panel</title>
   
-  }
-  .about{
-  	margin-left: 30%;
-  	position: absolute;
-  	top: 5%;
-  	cursor: pointer;
-  }
-  .help{
-  	margin-left: 46%;
-  	position: absolute;
-  	top: 5%;
-  	cursor: pointer;
+    <link rel="icon" href="./logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+        
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  }
-  .service{
-	margin-left: 63%;
-  	position: absolute;
-  	top: 5%;
-  	cursor: pointer;
+.sidebar{
+    width: 15%;
+    height: 800%;
+}
 
-  }
+.center{
+    width: 90%;
+    height: 1500px;
+   background-color: #dbd3d38a;
+}
+.container{
+    display: flex;
+}
 
-  .ab{
-  	margin-top: 6%;
-  	font-size: 28pt;
-  	color: wheat;
-  	font-weight: bolder;
-  }
-  .about  .out{
-  	font-size: 10pt;
-  	margin-left:20px;
-  }  
-  .res{
-  	margin-left: 1%;
-  	margin-top: 10%;
-  	font-size: 20pt;
-  }
-  .ff{
-  	margin-top: 11%;
+.logoimg{
+    height: 50px;
+    margin: 20px;
+    margin-left: 9px;
+    margin-top: -10px;
+    width: 60PX;
+}
 
-  	
-  }
-  .go{
-  	margin-left: 40%;
-  	cursor: pointer;
-  }
-   .fa{
-  	margin-left: 0%;
-  	cursor: pointer;
-  }
-  .inst{
-  	margin-left:0%;
-  	cursor: pointer;
-  }
-  .you{
-  	margin-left:0%;
-  	cursor: pointer;
 
-  }
-  .twiter{
-  	margin-left: 0%;
-  	cursor: pointer;
-  	transition: 1s ease-in;
-  }
-  .twiter :hover{
-  	transform: scale(1.7);
-  }
-  .circle{
-  	border-radius: 39px;
-  }
-	</style>
+
+.logodiv{
+ margin: 0;
+display: flex;
+margin: 10px;
+margin-top: 37px;
+width: 90%;
+border-bottom: 0.5px solid rgb(181, 179, 179);
+/* box-shadow: 5px 5px gray, 10px 10px gray, 15px 15px gray; */
+ 
+}
+.bo{
+    color: red;
+    font-weight: bolder;
+}
+
+.side_menu ul {
+    list-style: none;
+     margin: 0px;
+     padding: 10px;
+}
+.side_menu ul li i{
+    color: rgba(105, 79, 192, 0.464);
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: 12px;
+}
+.side_menu ul li select{
+    background: none;
+    outline: none;
+    border: none;
+
+}
+.submenu{
+    color: gray;
+    font-size: 15px;
+    margin-left:25px;
+    margin-top: 100px;
+}
+
+
+
+.upheader{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.icoon{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.icoon i{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+.inputsearch{
+    background-color: #eee;
+    padding-left: 20px;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+}
+
+.inputsearch:hover{
+    border:none;
+    outline: none;
+}
+
+.inputsearch:focus{
+    border: none;
+    outline: none;
+}
+.search .fa{
+    margin-left: -30px;
+}
+
+
+.fa-cart-plus{
+margin: 4px;
+font-size: 20px;
+border-radius: 4px;
+padding: 5px;
+color: goldenrod;
+size: 10px;
+}
+
+.head_icons ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: rgb(137, 47, 211);
+    padding-left: 90px;
+    list-style-type: none;
+
+}
+.head_icons ul li{
+    padding-left: 30px;
+
+}
+.head_img{
+    width:30px; 
+    height: 30px;
+    border-radius: 70px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.user{
+    width: 250px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    padding-left: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+    text-align: left;
+    line-height: 30px;
+    font-family: sans-serif;
+
+}
+.mycenter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.Dashboard1{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+.Dashboard2{
+    
+   
+    position: absolute;
+    top: 18%;
+    left: 80%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+.users .user{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.user h5{
+    color: gray;
+    font-size: 17px;
+}
+.user h1{
+    font-size: 25px;
+}
+.user h6{
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgba(166, 53, 223, 0.525);
+}
+ .img img{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: -100px;
+
+}
+.profile_text{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+    margin-top: 100px;
+}
+.profile_box{
+    width: 90%;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.img-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+}
+.img_box img{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    
+};
+.profile_box .buttons{
+   margin-top: 90px;
+   background: rgb(205, 255, 255);
+}
+.footer_box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 250px;
+    margin-top: 20%;
+
+}
+.footer_box img{
+    width: 60px;height:60px;
+    border-radius: 190px;
+}
+.footer_box h4{
+    color: rgb(45, 31, 94);
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.buttons{
+    margin-top: -270px;
+    margin-left:730px;
+  
+}
+.buttons button{
+    background-color: rgb(139, 31, 202);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+
+   
+}
+.buttons button i{
+    padding-right: 6px;
+  
+}
+
+.layout{
+            
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: gray;
+    margin-left: 40px;
+    border-bottom: 0.5px solid rgb(23, 9, 9);
+    display: inline-block;
+    margin-top: 20px;
+    
+    
+
+}
+.ya{
+font-size: large;
+margin-left: 20px;
+color: rgb(39, 36, 36);
+text-align: left;
+
+}
+.layout h2{
+font-size: 17px;
+margin-top: 30px;
+margin-left: 10px;
+}
+#input{
+margin-left: 10px;
+width: 300px;
+height: 30px;
+border-radius: 5px ;
+color: rgb(146, 142, 142);
+border-color: rgb(228, 224, 224);
+}
+.layout h3{
+font-size: 17px;
+margin-top: -2px;
+margin-left: 10px;
+}
+.layout h4{
+font-size: 17px;
+margin-top: 10px;
+margin-left: 10px;
+bottom: unset;
+}
+button{
+margin-left: 10px;
+background-color: rgb(12, 111, 186);
+border-radius: 10px;
+text-align: center;
+color:white;
+cursor: pointer;
+width: 90px;
+height: 40px;
+
+}
+.ja{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 70px;
+  
+}
+.layour{
+
+background-color: white;
+width: 350px;
+height: 300px;
+border-radius: 10px;
+box-shadow: gray;
+margin-left: 80px;
+border-bottom: 0.5px solid rgb(23, 9, 9);
+display: inline-block; 
+
+}
+.m{
+    font-size: large;
+    margin-left: 20px;
+    color: rgb(39, 36, 36);
+   text-align: left;
+}
+.layour h2{
+   
+        font-size: 17px;
+        margin-top:20px;
+        margin-left: 10px;
+
+}
+#inpu{
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px ;
+    color: rgb(146, 142, 142);
+    border-color: rgb(228, 224, 224);
+    margin-left: 130px;
+    margin-top: -200px;
+}
+.layour h3{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.layour h4{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+    bottom: unset;
+}
+button{
+    margin-left: 10px;
+    background-color: rgb(12, 111, 186);
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    margin-top: 20PX;
+}
+.submenu1{
+    position: absolute;
+    top: 16%;
+    color: red;
+
+}
+.i1{
+    position: absolute;
+    top: 21%;
+    left:5%;
+     color: red;
+
+}
+.im{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+
+}
+.submenu22{
+    position: absolute;
+    top: 27%;
+    font-size: 10pt;
+
+    }
+ .i2{
+   margin-top: 700px;
+}
+select{
+    border: none;
+}
+
+
+.sa{
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    width: 2%;
+    }
+.div{
+    position: absolute;
+    top: 32.6%;
+    left: 5%;
+     color: red;
+}
+
+
+.sa2{
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    width: 2%;
+    }
+.div2{
+    position: absolute;
+    top: 38.6%;
+    left: 5%;
+     color: red;
+}
+
+
+.sa3{
+    position: absolute;
+    top: 44%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div3{
+    position: absolute;
+    top: 44.6%;
+    left: 5%;
+     color: red;
+
+}
+.sa4{
+    position: absolute;
+    top: 57%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div4{
+    position: absolute;
+    top:58%;
+    left: 5%;
+     color: red;
+}
+.new{
+    background-color: red;
+    width: 2.7%;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 11%;
+
+
+}
+
+
+.sub{
+    position: absolute;
+    top: 51%;
+    left: 0.3%;
+     color: red;
+}
+.pro{
+    position: absolute;
+    top: 63%;
+    left: 4%;
+    font-size: 10pt;
+     color: red;
+}
+
+.pro2{
+    position: absolute;
+    top: 67%;
+    left: 4%;
+    font-size: 10pt;
+     color: red;
+}
+
+.pro3{
+    position: absolute;
+    top: 71%;
+    left: 4%;
+    font-size: 10pt;
+     color: red;
+}
+
+.pro4{
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    font-size: 10pt;
+     color: red;
+}
+
+.pro5{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+
+.pro6{
+    position: absolute;
+    top: 85%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+.pro7{
+    position: absolute;
+    top: 90%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+.pro8{
+    position: absolute;
+    top: 95%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+
+.pro9{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+.pro10{
+    position: absolute;
+    top: 105%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+.pro11{
+    position: absolute;
+    top: 110%;
+    left: 4%;
+    font-size: 10pt;
+    color: red;
+}
+.div5{
+    position: absolute;
+    top:85%;
+    left: 2%;
+     color: blue;
+}
+
+.sa5{
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div5{
+    position: absolute;
+    top:121%;
+    left: 5%;
+     color: red;
+}
+.sa6{
+    position: absolute;
+    top: 128%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div6{
+    position: absolute;
+    top:129%;
+    left: 5%;
+     color: red;
+}
+.sa7{
+    position: absolute;
+    top: 137%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div7{
+    position: absolute;
+    top:137%;
+    left: 5%;
+     color: red;
+}
+.sa8{
+    position: absolute;
+    top: 145%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div8{
+    position: absolute;
+    top:145%;
+    left: 5%;
+     color: red;
+}
+.sa9{
+    position: absolute;
+    top: 153%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div9{
+    position: absolute;
+    top:153%;
+    left: 5%;
+     color: red;
+}
+.sa10{
+    position: absolute;
+    top: 161%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div10{
+    position: absolute;
+    top:161%;
+    left: 5%;
+     color: red;
+}
+.sa11{
+    position: absolute;
+    top: 169%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div11{
+    position: absolute;
+    top:169%;
+    left: 5%;
+     color: red;
+}.sa12{
+    position: absolute;
+    top: 177%;
+    left: 2%;
+    width: 2%;
+     color: red;
+    }
+.div12{
+    position: absolute;
+    top:177%;
+    left: 5%;
+     color: red;
+}
+
+.icons_box{
+
+    display: flex;
+    width: 6%;
+    height: 47px;
+   
+   
+    margin-left: 40%;
+}
+.icons_box2{
+
+    display: flex;
+    width: 6%;
+    height: 47px;
+   
+   
+    margin-left: 1%;
+    margin-top:0%;
+}
+
+.icons_box3{
+
+    display: flex;
+    width: 6%;
+    height: 47px;
+   
+   
+    margin-left: 1%;
+    margin-top:0%;
+}
+.icons_box4{
+
+    display: flex;
+    width: 6%;
+    height: 47px;
+   
+   
+    margin-left: 3%;
+    margin-top:0%;
+}
+  </style>
+
+
+
+
 </head>
 <body>
-<header>
-	<div class="img"><img src=" Production.jpg" width="120px" class="circle"></div>
-	<span>XYZ_restaurant</span>
-	<div class="navbar">
-<select>
-	
-	<optgroup>
-		<option value="HOME">HOME</option>
-		
-	</optgroup>
-	</div>
 
+    <div class="container">
 
-</select>
-<!----end home ---->
-	<div class="navbar2">
-<select>
-	
-	<optgroup>
-		<option value="HOME">Buy</option>
-		
-	</optgroup>
-	</div>
+        <div class="sidebar">
 
-
-</select>
-
-
-
-
-	<div class="navbar3">
-<select>
-	
-	<optgroup>
-		<option value="HOME">sell</option>
-		
-	</optgroup>
-	</div>
-</select>
-
-
-
-
-
-
-<div class="p2">
-	Blog
+<!-- logo div -->
+<div class="logodiv">
+    <img src="steller.png" class="logoimg">
+    <div class="bo">Splash</div>
+   
 </div>
-
-
-<div class="navbar4">
-	<select class="s4">
-	
-	<optgroup>
-		<option value="Sell">support</option>
-		
-	</optgroup>
-
-</select>
+  
+    <div class="side_menu">
+<ul>
+<p class="submenu1">Menu</p>
+<li><img src="Home2.png" class="im"></i><p class="i1">Dashboard</p></li>
+<p class="submenu22">UI KIT</p>
+<img src="app.png" class="sa"> <div class="div"><select><option>Apps</option></select></div>
+<img src="app.png" class="sa2"> <div class="div2"><select><option>Bootstrap</option></select></div>
+<img src="app.png" class="sa3"> <div class="div3"><select><option>Landing Page</option></select></div>
+<div class="new">New</div>
+<p class="sub">BUILD PAGE</p>
+<img src="app.png" class="sa4"> <div class="div4"><select><option>Pages</option></select></div>
+<div class="pro">▶  Profile</div>
+<div class="pro2">▶ Edit  Profile</div>
+<div class="pro3">▶ Notification list</div>
+<div class="pro4">▶  Mail compare</div>
+<div class="pro5">▶  Mail inbox</div>
+ <div class="div5"><select><option>◀  Forms</option></select></div>
+ 
+<div class="pro7">▶ Edit  Profile</div>
+<div class="pro8">▶ Notification list</div>
+ <div class="pro9">▶  Profile</div>
+<div class="pro10">▶ Edit  Profile</div>
+<div class="pro11">▶ Notification list</div>
+<img src="app.png" class="sa5"> <div class="div5"><select><option>Pages</option></select></div>
+<img src="app.png" class="sa6"> <div class="div6"><select><option>Location</option></select></div>
+<img src="app.png" class="sa7"> <div class="div7"><select><option>Maps</option></select></div>
+<img src="app.png" class="sa8"> <div class="div8"><select><option>Cross</option></select></div>
+<img src="app.png" class="sa9"> <div class="div9"><select><option>Bridge</option></select></div>
+<img src="app.png" class="sa10"> <div class="div10"><select><option>Calender</option></select></div>
+<img src="app.png" class="sa11"> <div class="div11"><select><option>web</option></select></div>
+<img src="app.png" class="sa12"> <div class="div12"><select><option>Pages</option></select></div>
+</ul>
 
 </div>
 
+<!--   end logo -->
 
-<div class="p3">
-	Blog
-</div>
+        </div>
+        <div class="center">            
+<!--top header-->
 
+<div class="upheader">
 
-
-<!----login---->
-
-
-<!---login--->
-
-<div class="log">
-<img src="arrow.png" width="34px">
-
-</div>
-<div class="sign">
-
-<div class="lo">Login</div>
-</div>
-<!---end logo--->
-
-<div class="all">
-<div class="lo2">Register 🔄
-</div>
+    <div class="icoon">
+        <i class="fa-solid fa-bars"></i>
+       <div class="search">
+        <input  type="text" placeholder="Search" class="inputsearch">
+        <i class="fa fa-magnifying-glass"></i>
+       </div>
+    </div>
 
 
-
-
-
-</div>
-
-
-
-<div class="navbar5">
-	<select class="s4">
-	<optgroup>
-		<option value="Sell">English</option>
-	</optgroup>
-
-</select>
+    <div class="head_icons">
+ 
+      <ul>
+        <li><i class="fa-solid fa-globe"></i>English</li>
+        <li><img src="world.png"></i></li>
+     
+        
+       
+     <img src="setting.png" width="16%"></i>
+       
+      </ul> 
+    </div>
 
 </div>
-</header>
+<h4 class="Dashboard1">Dashboard 01</h4>
+<h4 class="Dashboard2">Home      /   Dashboard </h4>
+<div class="mycenter">
 
+<div class="users">
 
-<!------end of header----->
-
-
-<!----middle part----->
-<div class="whole">
-<div class="background">
-	<img src="back1.jpeg">
-	
+    <div class="user">
+     <h5>Total users</h5>
+     <h2>64,208</h2>
+     <h6>90% last week</h6>
+   </div>
+   <div class="img">
+    <img src="chart.png" alt="">
+   </div>
 </div>
+<div class="users">
+
+    <div class="user">
+     <h5>Total profit</h5>
+     <h2>70,999</h2>
+     <h6>50% last day</h6>
+   </div>
+   <div class="img">
+    <img src="chart.png" alt="">
+   </div>
 </div>
+<div class="users">
 
-
-<!-----qoralka--->
-<div class="qoral">
-	<div class="order"><div class="qo2">First orders and you`ill get up to $10 in free BTC as a reward</div>.</div><br><br>
-	<div class="trust"> A TRUSTED AND SECURE </div><br>
-	<div class="crypro"> CryptoCurrency EXchange</div><br><br><br><br><br>
-
-	<div class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
-	<div class="para2">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	
+    <div class="user">
+     <h5>Total expenses</h5>
+     <h2>40,608</h2>
+     <h6>58% last week</h6>
+   </div>
+   <div class="img">
+    <img src="chart.png" alt="">
+   </div>
 </div>
-<div class="input">
-	<input type="text" placeholder="Enter your Email or Phone">
-</div>
-<div class="get"><div class="start">Get Started     ▶</div></div>
+<div class="users">
 
-</div>
-
-<!-----end---->
-<!-----end---->
-<!-----end---->
-<!-----end---->
-
-
-<div class="middlesection">
-	<div class="how">How to Buy and Sell Cryptocurrency</div><br>
-	<div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur.<br>	
-</div>
-</div>
-<!--end middle sectio--->
-
-<div class="third">
-	<div><img src="bank.png" width="32%"></div>
-	<div class="title">Bank Transfers</div>
-	<div class="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
-	</div>
-
-
-
-	
-</div>
-
-<div class="third2">
-	<div><img src="draw2.png" width="45%"></div>
-	<div class="title">Bank Transfers</div>
-	<div class="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
-	</div>
-
-
-
-	
-</div>
-
-
-<div class="third3">
-	<div><img src="draw.png" width="45%"></div>
-	<div class="title">Bank Transfers</div>
-	<div class="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
-	</div>
-</div>
-
-
-
-
-
-<div class="middlesection2">
-	<div class="how">OUR FEATURES</div><br>
-	<div class="lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur.<br>	
+    <div class="user">
+     <h5>Total COSTS</h5>
+     <h2>40,588</h2>
+     <h6>35% last Month</h6>
+   </div>
+   <div class="img">
+    <img src="chart.png" alt="">
+   </div>
 </div>
 </div>
 
+<h4 class="profile_text"> profile</h4>
+<div class="profile_box">
+    <div class="img_box">    
+    <img src="banner.jpg" alt="">            
+    </div>
+    <div class="buttons">
+        <button><i class="fa-sharp fa-solid fa-wifi"></i>Follow</button>
+        <button><i class="fa-sharp fa-solid fa-message"></i>Message</button>
+    </div>
+    <div class="footer_box">
+        <img src="teacher.png">
+        <h4>Ayanna<br> Web Developer $<br>web designer</h4>
+  
+        <div class="icons_box">
+            
+            <div class="icon">
+               <img src="youtube.png" width="1%">
+    
+          
+          
+        </div>
+    </div>
 
-<!---end --->
-
-
-<div class="fifth">
-	<div><img src="secure1.png" width="60%" class="im"></div>
-	<div class="title2">Security First</div><br>
-	<div class="lor2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
-	</div>
 
 
 
-	
+
+
+
+
+        <div class="icons_box2">
+            
+            <div class="icon">
+               <img src="instagram.png" width="1%">
+    
+          
+          
+        </div>
+    </div>
+     <div class="icons_box3">
+            
+            <div class="icon">
+               <img src="wwhat.png" width="1%">
+    
+          
+          
+        </div>
+         <div class="icons_box4">
+            
+            <div class="icon">
+               <img src="face.png" width="1%">
+    
+          
+          
+        </div>
+    </div>
+    </div>
+</div>
+<h4 class="Dashboard1"> Form_layout</h4>
+<div class="layout">
+    <h1 class="ya">Veritcal Form</h1>
+    <h2> Email address</h2>
+    <input type="text" placeholder="Enter Email" id="input">
+    <h3>Password</h3>
+    <input type="text" placeholder="Password" id="input">
+    <h4>check me out</h4>
+    <button>Submit</button>     
+
+
+</div>
+<div class="ja"></div>
+<div class="layour">
+    <h1 class="m">Horizantal Form</h1>
+    <h2> User </h2><input type="text" placeholder="Name" id="inpu">
+    
+    <h3>Email</h3>
+    <input type="text" placeholder="Email" id="inpu">
+    <h4>Password</h4>
+    <input type="text" placeholder="password" id="inpu">
+    <button>Sgin</button> 
+    <button>Cancel</button>    
+
 </div>
 
 
-
-
-<div class="six">
-	<div><img src="secure3.png" width="60%" class="im"></div>
-	<div class="title2">Fast withdrwal</div><br>
-	<div class="lor2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
-	</div>
-
-
-
-	
 </div>
-
-
-<div class="seven">
-	<div><img src="secure2.png" width="50%" class="im"></div>
-	<div class="title2">officer</div><br>
-	<div class="lor2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>sed do eiusmod
-	cillum dolore eu fugiat nulla pariatur. <br>Excepteur sint occaecat cupidatat non
-	</div>
-</div>
-	
-<footer>
-<div class="res">🗝🗝🔑🔏BANK🗝🗝🔑🔏</div>
-<div class="about">
-	<div class="ab">ABOUT</div><br><div class="out">How it work <br><br>featured<br><br>featured<br><br>Partnership</div><br>
-</div>
-
-<div class="help">
-	<div class="ab">HELP</div><br><div class="out">How it work <br><br>featured<br><br>featured<br><br>Partnership<br><br>featured<br><br>Partnership</div><br>
-</div>
+<!--end top header-->
 
 
 
-<div class="service">
-	<div class="ab">SERVICE</div><br><div class="out">How it work <br><br>featured<br><br>featured<br><br>Partnership<br></div><br>
-</div>
-<div class="ff"><div>
-	<img src="f4.png" width="3%" class="go">
-	<img src="f1.png" width="3%" class="fa">
-	<img src="instagram.png" width="3%" class="inst">
-	<img src="youtube.png" width="3%" class="you">
-	<img src="twiter.png" width="3%" class="you">
-</div>
-</div>
 
-</footer>
+    
+    
 </body>
 </html>
